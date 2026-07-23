@@ -1,9 +1,0 @@
-arr = [10, 25, 7, 89, 45]
-smallest = second = float('inf')
-for num in arr:
-    if num < smallest:
-        second = smallest
-        smallest = num
-    elif num < second and num != smallest:
-        second = num
-print("Second smallest element:", second)
